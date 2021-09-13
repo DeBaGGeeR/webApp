@@ -1,0 +1,55 @@
+.categories{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+    color: #000000;
+}
+.categories form {
+    width: 290px;
+    margin-bottom: 20px;
+}
+.categories label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.categories input, button {
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;    
+}
+.categories input {
+    width: 210px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.categories button{
+    width: 70px;
+    background-image: linear-gradient(90deg,#743ad5, #d53a9d 100%);
+    margin-left: 10px;
+}
+.categories .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.categories .row p{
+    font-family: 'Montserrat', sans-serif;    
+}

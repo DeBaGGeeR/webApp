@@ -1,0 +1,73 @@
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    justify-items: center;
+    margin: 20px 0;
+}
+
+/***************************Product Items*******************************/
+@import url("../utils/productItem/productItems.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+/*********************************Filter menu*************************/
+.filter-menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    color: #000000;
+}
+.filter-menu .row span{
+    font-family: 'Montserrat', sans-serif;
+}
+.filter-menu select, input{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+    background: none;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.filter-menu input{
+    flex: 1;
+    margin: 0 10px;
+}
+.load-more{
+    text-align: center;
+}
+.load-more button{
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    text-transform: capitalize;
+}

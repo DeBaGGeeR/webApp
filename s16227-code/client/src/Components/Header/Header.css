@@ -1,0 +1,55 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo{
+    flex: 1;
+}
+header .logo h1 a{
+    font-family: 'Zilla Slab', cursive;
+    font-size: 2.5rem;
+}
+header .logo span {
+    font-size: 0.6rem;
+    color: rgb(247, 149, 52);
+}
+header a{
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+header ul li:hover{
+    opacity: 1;
+}
+.menu{
+    display: none;
+    color: #000000;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+}
+.cart-icon a img{
+    color: rgb(0, 0, 0);
+}
+.cart-icon span{
+    background: crimson;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 4px 7px;
+    font-size: 11px;
+}
